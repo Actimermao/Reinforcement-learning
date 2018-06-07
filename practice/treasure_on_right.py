@@ -84,7 +84,7 @@ def rl():
             S = S_
             update_env(S, episode, step_counter+1)
             step_counter += 1
-            print('\n',q_table)
+            #print('\n',q_table)
     return q_table
 
 
