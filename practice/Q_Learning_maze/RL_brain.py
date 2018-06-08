@@ -38,6 +38,6 @@ class QLearningTable:
                 pd.Series(
                     [0]*len(self.actions),
                     index=self.q_table.columns,
-                    name=state
+                    name=state,
                 )
             )
