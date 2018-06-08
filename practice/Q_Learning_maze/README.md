@@ -1,6 +1,7 @@
 using Q_learning to play the game
 
 Reinforcement learning maze example.
+
 Red rectangle:          explorer.
 
 Black rectangles:       hells       [reward = -1].
