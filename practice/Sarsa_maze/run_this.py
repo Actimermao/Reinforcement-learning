@@ -14,7 +14,7 @@ def update():
 
             observation_, reward, done = env.step(action)
 
-            action_ = RL.choose_action(str(observation))
+            action_ = RL.choose_action(str(observation_))
 
             RL.learn(str(observation), action,  reward, str(observation_), action_)
 
